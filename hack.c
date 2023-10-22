@@ -15,7 +15,7 @@ int main()
     latitudeDestination=(latitudeDestination*PI)/180;
     longitudeDestination=(longitudeDestination*PI)/180;
     Delta=longitudeDestination-longitudeDestination;
-    distance=acos(sin(latitudeOrigin)* sin(latitudeDestination) +cos(latitudeOrigin)*cos(latitudeDestination)*cos(Delta))*R;
+    distance=acos(sin(latitudeOrigin)* sin(latitudeDesination) +cos(latitudeOrigin)*cos(latitudeDestination)*cos(Delta))*R;
     printf("origin:(%f,%f) \n destination:(%f,%f)\n" , latitudeOrigin*180/PI, longitudeOrigin*180/PI ,latitudeDestination*180/PI,longitudeDestination*180/PI);
     printf ("Airdistace is %f km \n" , distane);
     return 0;
