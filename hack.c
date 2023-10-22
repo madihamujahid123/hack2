@@ -4,7 +4,7 @@
 //program to find the airdistance between origin and destination
 int main()
 {
-    double latitudeOrigin, longitudeOrigin,latitudeDestination,longitudeDestination;
+    double latitudeOrigin, longitudeOrigin,latitudeDestination,longitudeDestination; //used double to store point value
     double distance, Delta;
     const float R=6371.0;
     const float PI=3.14;
